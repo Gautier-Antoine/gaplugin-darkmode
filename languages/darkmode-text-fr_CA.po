@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-05-14 17:10-0400\n"
+"PO-Revision-Date: 2020-05-14 17:16-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ../../share-nav\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AGPlugin-DarkMode-plugin.php:37
+msgid "You are not currently logged in"
+msgstr "Vous n’êtes pas connecté actuellement"
+
+#: includes/AdminPage.php:92
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: includes/AdminPage.php:139
+msgid "Welcome to AGPlugin Page"
+msgstr "Bienvenue sur AGPlugin Page"
+
+#: includes/AdminPage.php:141
+msgid "You'll find the different sections in the tabs"
+msgstr "Vous trouverez les différentes sections dans la tabulation"
+
+#: includes/AdminPage.php:149
+msgid "Navigation "
+msgstr "Navigation "
+
+#: includes/DarkMode.php:46
+msgid "DarkMode is active"
+msgstr "DarkMode est activé"
+
+#: includes/DarkMode.php:48
+#, php-format
+msgid "Use in your %1$s :"
+msgstr "Utilisez dans votre %1$s :"
+
+#: includes/DarkMode.php:49
+#, php-format
+msgid "- for the light theme %1$s"
+msgstr "- pour le thème clair %1$s"
+
+#: includes/DarkMode.php:50
+#, php-format
+msgid "- for the dark theme %1$s"
+msgstr "- pour le thème foncé %1$s"
+
+#: includes/DarkMode.php:52
+#, php-format
+msgid "If you click on the test button,%1$sthe %2$s of the %3$s will be affected"
+msgstr "Si vous cliquez sur le bouton test,%1$sles %2$s du %3$s seront affectés"
+
+#: includes/DarkMode.php:63
+#, php-format
+msgid "Checkbox for %1$s"
+msgstr "Case à cocher pour %1$s"
+
+#~ msgid "Which social media do you want to show to your visitors<br>Put the link to your social media to activate"
+#~ msgstr "Quels réseaux sociaux voulez-vous partager avec vos visiteurs<br>Mettez le lien vers votre réseau social pour l'activer"
+
+#~ msgid "Follow us on"
+#~ msgstr "Suivez-nous sur"
+
+#~ msgid "Link to"
+#~ msgstr "Lien vers"
+
+#~ msgid "Which social media do you want to share with your visitors"
+#~ msgstr "Quels réseaux sociaux voulez-vous partager avec vos visiteurs"
+
+#~ msgid "Share this on"
+#~ msgstr "Partagez sur"
+
+#~ msgid "Share on"
+#~ msgstr "Partagez sur"

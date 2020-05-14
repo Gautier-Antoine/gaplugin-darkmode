@@ -1,0 +1,66 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-05-14 17:10-0400\n"
+"PO-Revision-Date: 2020-04-22 09:04-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: AGPlugin-DarkMode-plugin.php:37
+msgid "You are not currently logged in"
+msgstr ""
+
+#: includes/AdminPage.php:92
+msgid "Parameters"
+msgstr ""
+
+#: includes/AdminPage.php:139
+msgid "Welcome to AGPlugin Page"
+msgstr ""
+
+#: includes/AdminPage.php:141
+msgid "You'll find the different sections in the tabs"
+msgstr ""
+
+#: includes/AdminPage.php:149
+msgid "Navigation "
+msgstr ""
+
+#: includes/DarkMode.php:46
+msgid "DarkMode is active"
+msgstr ""
+
+#: includes/DarkMode.php:48
+#, php-format
+msgid "Use in your %1$s :"
+msgstr ""
+
+#: includes/DarkMode.php:49
+#, php-format
+msgid "- for the light theme %1$s"
+msgstr ""
+
+#: includes/DarkMode.php:50
+#, php-format
+msgid "- for the dark theme %1$s"
+msgstr ""
+
+#: includes/DarkMode.php:52
+#, php-format
+msgid "If you click on the test button,%1$sthe %2$s of the %3$s will be affected"
+msgstr ""
+
+#: includes/DarkMode.php:63
+#, php-format
+msgid "Checkbox for %1$s"
+msgstr ""

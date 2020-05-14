@@ -1,0 +1,12 @@
+:root {
+  --text-color: 255, 255, 255;
+  --bg-color: 133, 198, 192;
+}
+[data-theme="dark"] {
+  --text-color: 200,206,230;
+  --bg-color: 55,46,62;
+}
+body {
+  background-color: rgb(var(--bg-color)) !important;
+  color: rgb(var(--text-color)) !important;
+}
