@@ -9,7 +9,7 @@ Requires at least: 5.2
 Requires PHP: 7.2
 
 Author: GAUTIER Antoine
-Author URI: gautierantoine.com
+Author URI: https://github.com/Pepite61/agplugin-darkmode
 Text Domain: darkmode-text
 Domain Path: /languages
 License:     GPL v3
