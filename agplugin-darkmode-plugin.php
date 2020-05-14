@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: DarkMode-AGPlugin
-Plugin URI: gautierantoine.com
+Plugin URI: https://github.com/Pepite61/agplugin-darkmode
 Description: Dark Mode for the website
 Version: 0.00.01
 
@@ -9,7 +9,7 @@ Requires at least: 5.2
 Requires PHP: 7.2
 
 Author: GAUTIER Antoine
-Author URI: https://github.com/Pepite61/agplugin-darkmode
+Author URI: gautierantoine.com
 Text Domain: darkmode-text
 Domain Path: /languages
 License:     GPL v3
