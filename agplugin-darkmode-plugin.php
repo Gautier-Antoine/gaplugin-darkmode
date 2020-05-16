@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: DarkMode-AGPlugin
+Plugin Name: DarkMode-AG
 Plugin URI: https://github.com/Pepite61/agplugin-darkmode
 Description: Dark Mode for the website
 Version: 0.00.01
@@ -15,12 +15,12 @@ Domain Path: /languages
 License:     GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
-DarkMode-AGPlugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+DarkMode-AG is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
-DarkMode-AGPlugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+DarkMode-AG is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with DarkMode-AGPlugin.
+You should have received a copy of the GNU General Public License along with DarkMode-AG.
 If not, see https://www.gnu.org/licenses/gpl-3.0.en.html.
 */
 

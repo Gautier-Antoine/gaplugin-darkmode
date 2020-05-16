@@ -1,6 +1,13 @@
 # agplugin-darkmode
+=== DarkMode - AG ===
+Author: Antoine GAUTIER
+Tags: socials, media, navigation
+Requires at least: 5.2
+License: GPLv3
+
+== Description ==
 After installing the plugin.
-You'll have a new menu in your admin page "AGPlugin". 
+You'll have a new menu in your admin page "AGPlugin".
 It will have a "darkmode" menu.
 Here you'll be able to activate a test affecting the body of your website.
 
