@@ -1,5 +1,5 @@
 <?php
-namespace AGPlugin;
+namespace GAPlugin;
 /**
 * Class Share
 * manage the social media where we can share the article in your Share ShortcodeNav
@@ -21,7 +21,7 @@ class DarkMode extends AdminPage {
       /**
       * @var string name for the plugin folder
       */
-      FOLDER = 'agplugin-darkmode';
+      FOLDER = 'gaplugin-darkmode';
 
     public static function getfolder(){
       return plugin_dir_url( __DIR__ );
