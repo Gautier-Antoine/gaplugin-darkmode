@@ -3,7 +3,7 @@
 Author: Antoine GAUTIER
 Author URI: gautierantoine.com
 Contributors: gautierantoine
-Tags: darkmode, colors, navigation
+Tags: darkmode, colors, navigation, dark, light
 Requires at least: 5.2
 Tested up to: 5.2
 Requires PHP: 7.2
@@ -28,3 +28,10 @@ You just have to use the shortcode in your theme to display the checkbox for the
 Here is the shortcode to use: [darkmode-nav]
 
 Enjoy !
+Take a look at my website [GautierAntoine.com](https://gautierantoine.com)
+
+== Installation ==
+1. Install the plugin.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. In the "GAPlugin" Menu in your admin panel, you can activate the test mode.
+4. You'll need to add the shortcode [darkmode-nav] in your code to show the button.
