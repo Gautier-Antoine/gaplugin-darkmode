@@ -1,4 +1,7 @@
 <?php
+/**
+ * @package GAP-DarkMode
+ */
 namespace GAPlugin;
 /**
 * Class Share
@@ -30,7 +33,7 @@ class DarkMode extends AdminPage {
     * @var array names of the share social medias and urls
     */
     public static $list = [
-      ['name' => 'test']
+      ['label_for' => 'test']
     ];
     public static function registerPublicScripts () {
       wp_register_style(static::FILE, static::getFolder() . 'includes/' . static::FILE . '.css');
@@ -52,13 +55,14 @@ class DarkMode extends AdminPage {
       printf(__('If you click on the test button,%1$sthe %2$s of the %3$s will be affected', static::LANGUAGE) . '<br><br>'
       ,'<br>', 'color & background-color', 'body');
 
-      echo 'Shortcode = [' . static::PAGE . '-nav]';
+      echo 'Shortcode = [GAP-' . static::PAGE . ']';
     }
     public static function addPageFunction($args) {
       ?>
         <input
           type="checkbox"
           class="checkbox"
+          id="<?= $args['label_for'] ?>"
           name="<?= static::PAGE . '-' . $args['class'] ?>"
           title="<?php printf(__('Checkbox for %1$s', static::LANGUAGE), $args['class']) ?>"
           <?php if (get_option(static::PAGE . '-' . $args['class'])) {echo ' checked';} ?>
@@ -66,18 +70,27 @@ class DarkMode extends AdminPage {
       <?php
     }
     public static function ShortcodeNav() {
-      echo '
+      return '
         <div class="theme-switch-wrapper">
             <label class="theme-switch" for="checkbox">
                 <input type="checkbox" id="checkbox" />
                 <div class="slider round"></div>
           </label>
-      ';
-      // if (get_option(static::PAGE . '-text')){
-      //   echo '<em>' . esc_textarea( get_option(static::PAGE . '-text') ) . '</em>';
-      // }
-      echo '
         </div>
       ';
       }
+
+      /**
+       * Activate plugin
+       */
+      public static function Activate() {
+        flush_rewrite_rules();
+      }
+      /**
+       * Deactivate plugin
+       */
+      public static function Deactivate() {
+        flush_rewrite_rules();
+      }
+
 }

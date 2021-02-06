@@ -1,9 +1,12 @@
 <?php
+/**
+ * @package GAP-DarkMode
+ */
 /*
-Plugin Name: DarkMode-GA
-Plugin URI: https://github.com/Pepite61/gaplugin-darkmode
+Plugin Name: GAP-DarkMode
+Plugin URI: https://github.com/Gautier-Antoine/gaplugin-darkmode
 Description: Dark Mode for the website
-Version: 0.00.01
+Version: 0.01.00.00
 
 Requires at least: 5.2
 Requires PHP: 7.2
@@ -44,10 +47,14 @@ If not, see https://www.gnu.org/licenses/gpl-3.0.en.html.
   if (!class_exists('GAPlugin\AdminPage')){
     require_once 'includes/AdminPage.php';
   }
-  require_once 'includes/DarkMode.php';
+  if (!class_exists('GAPlugin\DarkMode')){
+    require_once 'includes/DarkMode.php';
+  }
 
 
   register_uninstall_hook( __FILE__, ['GAPlugin\DarkMode', 'removeOptions']);
+  register_activation_hook( __FILE__, ['GAPlugin\DarkMode', 'Activate']);
+  register_deactivation_hook( __FILE__, ['GAPlugin\DarkMode', 'Deactivate']);
 
   add_action(
     'init',

@@ -1,13 +1,13 @@
 # gaplugin-darkmode
-=== DarkMode - GA ===
+=== GAPlugin - DarkMode ===
 Author: Antoine GAUTIER
 Author URI: gautierantoine.com
 Contributors: gautierantoine
 Tags: darkmode, colors, navigation, dark, light
 Requires at least: 5.2
-Tested up to: 5.5
+Tested up to: 5.6
 Requires PHP: 7.2
-Stable tag: 0.00.01
+Stable tag: 0.01.00.00
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -25,7 +25,7 @@ You'll be able to modify your CSS (Cascade Style Sheet) to manage your darktheme
 You can take a look in the test mode to see how to use it.
 
 You just have to use the shortcode in your theme to display the checkbox for the darkmode.
-Here is the shortcode to use: [darkmode-nav]
+Here is the shortcode to use: [GAP-darkmode]
 
 Enjoy !
 Take a look at my website [GautierAntoine.com](https://gautierantoine.com)
